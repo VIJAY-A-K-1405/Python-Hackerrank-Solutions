@@ -1,2 +1,2 @@
-# hackerrank-solutions
-Coding solutions — auto-documented by PrepPush
+# Python-hackerrank-solutions
+Python Coding solutions

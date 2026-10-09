@@ -81,9 +81,9 @@ addressId = 1 contains information about the address of personId = 2.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 466 ms (beats 39.39%)  
+**Runtime:** 429 ms (beats 65.59%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-09T22:51:14.423Z  
+**Submitted:** 2026-10-09T22:51:56.512Z  
 
 ```sql
 # Write your MySQL query statement below
@@ -91,6 +91,7 @@ select  firstName , lastName , city , state from Person
 left join Address
 on person.personId = address.personId
 
+# SELECT p.firstName ,p.lastName ,a.city,a.state FROM Person p LEFT JOIN Address a ON p.personId=a.personId;
 
 
 ```

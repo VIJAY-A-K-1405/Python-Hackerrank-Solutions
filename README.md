@@ -1,3 +1,3 @@
 <div align="center">
 
-# 🧠 Coding Solutions
+# 🧠 Python Coding Solutions
